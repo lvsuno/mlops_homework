@@ -1,0 +1,23 @@
+name: mlops_course
+channels:
+   - defaults
+dependencies:
+    - python=3.10.9
+    - pip>=19.0
+    - numpy >=1.23.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - seaborn
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - pyyaml
+    - flask
+    - ipykernel
+    - pip:
+        - mlflow
+        - hyperopt
