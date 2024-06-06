@@ -167,3 +167,5 @@ artifacts/
 *.pkl
 
 *.parquet
+
+*.b
